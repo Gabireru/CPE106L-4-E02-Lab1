@@ -8,3 +8,14 @@ Define these functions in a module named stats.py.
 Also include a function named mean, which computes the average of a set of numbers.
 Each function expects a list of numbers as an argument and returns a single number.
 '''
+
+import stats
+
+n = input("Enter numbers separated by commas: ")
+if not n:
+    print("The list of numbers is empty.")
+else:
+    numbers = [float(num) for num in n.split(",")]
+    print("Mean:", stats.mean(numbers))
+    print("Median:", stats.median(numbers))
+    print("Mode:", stats.mode(numbers))
