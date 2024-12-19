@@ -9,6 +9,15 @@ If the input is 0, the program quits.
 Otherwise, the program prints the line associated with that number 9.
 '''
 
+'''
+Note for Users:
+When being prompted for the name of the file, do not forget to add the filename extension!
+The program will not work if you just simply input "text" as a file, you must write "text.txt"!
+
+Just a heads up!
+:)
+'''
+
 def main():
     # Prompt the user for a filename
     filename = input("Enter the filename: ")
