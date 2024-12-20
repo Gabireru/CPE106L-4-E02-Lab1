@@ -9,6 +9,10 @@ Also include a function named mean, which computes the average of a set of numbe
 Each function expects a list of numbers as an argument and returns a single number.
 '''
 
+'''
+This file requires the stats.py to run. Make sure this program has access to the file.
+'''
+
 import stats
 
 n = input("Enter numbers separated by commas: ")
